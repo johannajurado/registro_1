@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.xst" -ofn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.xst" -ofn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.xst" -ofn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.xst" -ofn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.xst" -ofn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.xst" -ofn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.xst" -ofn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.xst" -ofn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.xst" -ofn "C:/Users/utp/Desktop/aleja/registro_2/registro_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 registro_2.ngc registro_2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o registro_2_map.ncd registro_2.ngd registro_2.pcf 
+par -w -intstyle ise -ol high -t 1 registro_2_map.ncd registro_2.ncd registro_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml registro_2.twx registro_2.ncd -o registro_2.twr registro_2.pcf 
